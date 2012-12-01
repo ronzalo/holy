@@ -1,0 +1,3 @@
+all:
+  .settings:
+    default_culture: es_CL

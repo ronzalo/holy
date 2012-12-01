@@ -1,0 +1,8 @@
+Holiday:
+  actAs: { Timestampable: ~ }
+  columns:
+    date:  { type: date, notnull: true }
+    name:  { type: string(255) , notnull: true }
+    type:  { type: string(255), notnull: false }
+    inalienable:  { type: boolean, default: false}
+    law:          { type: string(255), notnull: true  }
