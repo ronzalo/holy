@@ -1,0 +1,121 @@
+Holiday:
+  Holiday_1:
+    date: '2012-12-25'
+    name: Navidad
+    type: Religioso
+    inalienable: true
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:20:40'
+    updated_at: '2012-12-01 12:20:40'
+  Holiday_2:
+    date: '2013-01-01'
+    name: 'Año Nuevo'
+    type: Civil
+    inalienable: true
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:21:21'
+    updated_at: '2012-12-01 12:21:21'
+  Holiday_3:
+    date: '2012-12-08'
+    name: 'Inmaculada Concepcion'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:25:59'
+    updated_at: '2012-12-01 12:25:59'
+  Holiday_4:
+    date: '2013-03-29'
+    name: 'Viernes Santo'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:26:59'
+    updated_at: '2012-12-01 12:26:59'
+  Holiday_5:
+    date: '2013-03-30'
+    name: 'Sabado Santo'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:31:00'
+    updated_at: '2012-12-01 12:31:00'
+  Holiday_6:
+    date: '2013-05-01'
+    name: 'Dia Nacional del Trabajo'
+    type: Civil
+    inalienable: true
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:31:36'
+    updated_at: '2012-12-01 12:31:36'
+  Holiday_7:
+    date: '2013-05-21'
+    name: 'Dia de las glorias navales'
+    type: Civil
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:32:05'
+    updated_at: '2012-12-01 12:32:05'
+  Holiday_8:
+    date: '2013-06-29'
+    name: 'San Pedro y San Pablo'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:32:28'
+    updated_at: '2012-12-01 12:32:28'
+  Holiday_9:
+    date: '2013-07-16'
+    name: 'Dia de la virgen del Carmen'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:32:59'
+    updated_at: '2012-12-01 12:32:59'
+  Holiday_10:
+    date: '2013-08-15'
+    name: 'Dia de la asunsión de la Virgen'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:33:28'
+    updated_at: '2012-12-01 12:33:28'
+  Holiday_11:
+    date: '2013-09-18'
+    name: 'Independencia Nacioal'
+    type: Civil
+    inalienable: true
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:33:54'
+    updated_at: '2012-12-01 12:33:54'
+  Holiday_12:
+    date: '2013-09-19'
+    name: 'Dia de las glorias del ejercito'
+    type: Civil
+    inalienable: true
+    law: 'Ley 2.977'
+    created_at: '2012-12-01 12:34:16'
+    updated_at: '2012-12-01 12:34:16'
+  Holiday_13:
+    date: '2013-09-20'
+    name: 'Fiestas Patrias'
+    type: Civil
+    inalienable: false
+    law: 'Ley 20.215'
+    created_at: '2012-12-01 12:34:55'
+    updated_at: '2012-12-01 12:34:55'
+  Holiday_14:
+    date: '2013-10-12'
+    name: 'Encuentro de Dos Mundos'
+    type: Civil
+    inalienable: false
+    law: 'Ley 19.668'
+    created_at: '2012-12-01 12:35:30'
+    updated_at: '2012-12-01 12:35:30'
+  Holiday_15:
+    date: '2013-10-31'
+    name: 'Día de las Iglesias Evangélicas y Protestantes'
+    type: Religioso
+    inalienable: false
+    law: 'Ley 20.299'
+    created_at: '2012-12-01 12:35:54'
+    updated_at: '2012-12-01 12:35:54'
