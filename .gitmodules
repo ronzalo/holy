@@ -1,0 +1,3 @@
+[submodule "plugins/sfTwitterBootstrapPlugin"]
+	path = plugins/sfTwitterBootstrapPlugin
+	url = git@github.com:real-chocopanda/sfTwitterBootstrapPlugin.git

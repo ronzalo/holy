@@ -16,4 +16,28 @@ class HolidayTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Holiday');
     }
+    
+    public static function getHolidaysMonth($month){
+      return Doctrine_Query::create()
+          ->from('Holiday')
+          ->where('MONTH(date) = ?',$month)
+          ->execute();
+    }
+    
+    public static function getHolidaysWeek($week){
+      return Doctrine_Query::create()
+          ->from('Holiday')
+          ->where('WEEK(date) = ?',$week)
+          ->execute();
+    }
+    
+    public static function getHolidaysSearch($search){
+      return Doctrine_Query::create()
+          ->from('Holiday')
+          ->where('date LIKE ?',$search)
+          ->orWhere('name LIKE ?',$search)
+          ->orWhere('type LIKE ?',$search)
+          ->orWhere('law LIKE ?',$search)
+          ->execute();
+    }
 }

@@ -1,18 +1,9 @@
-holiday_holiday:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                Holiday
-    module:               holiday
-    prefix_path:          /holiday
-    column:               id
-    with_wildcard_routes: true
-
 holiday:
   class: sfDoctrineRouteCollection
   options:
     model:                Holiday
     module:               Holiday
-    prefix_path:          /Holiday
+    prefix_path:          /holiday
     column:               id
     with_wildcard_routes: true
 
